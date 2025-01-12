@@ -1,1 +1,0 @@
-# Encoder_bot1
