@@ -13,14 +13,14 @@ class Config(object):
     FORCE_SUB) else None
    
     # database config
-    DB_URL  = os.environ.get("DB_URL", "")  # ⚠️ Required
+    DB_URL  = os.environ.get("DB_URL", "mongodb+srv://Krishna:pss968048@cluster0.4rfuzro.mongodb.net/?retryWrites=true&w=majority")  # ⚠️ Required
     DB_NAME  = os.environ.get("DB_NAME","KRISHNA") 
 
     # Other Configs 
     ADMIN = int(os.environ.get("ADMIN", "5446367898")) # ⚠️ Required
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "")) # ⚠️ Required
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002317509038")) # ⚠️ Required
     BOT_UPTIME = BOT_UPTIME  = time.time()
-    START_PIC = os.environ.get("START_PIC", "https://graph.org/file/15e82d7e665eccc8bd9c5.jpg")
+    START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/219c7ce28f8f9262c3477-5ac482fb1d0adadca5.jpg")
 
     # wes response configuration     
     WEBHOOK = bool(os.environ.get("WEBHOOK", True))
